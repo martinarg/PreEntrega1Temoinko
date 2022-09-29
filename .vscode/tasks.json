@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "PreEntrega1Temoinko/preentrega1temoinko",
+			"problemMatcher": [],
+			"label": "npm: start - PreEntrega1Temoinko/preentrega1temoinko",
+			"detail": "react-scripts start"
+		}
+	]
+}

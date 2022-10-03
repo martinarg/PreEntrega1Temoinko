@@ -1,13 +1,14 @@
+import { useState } from "react";
 
 
 const Brand = (props) =>{
-
    
+   const [marcastate, setState] = useState('Trophy Deportes 1');
        
     return (
         <>
        
-        <h1>{props.marca}</h1>
+        <h1>{props.marca || marcastate}</h1>
         </>
     )
 }
